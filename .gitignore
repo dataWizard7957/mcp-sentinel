@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and runtime artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+.cache
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+
+# SQLite databases & lock files (keeps test/local runtime data out of git)
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+
+# IDE & Editor configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
